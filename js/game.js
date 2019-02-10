@@ -105,4 +105,8 @@ function keyPressed() {
         {  player.jump();
         }
 }
+function touchStarted() {
+    player.jump();
+}
+
 
