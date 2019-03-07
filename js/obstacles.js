@@ -4,7 +4,7 @@ function Obstacles(x){
     this.y=height-100-this.oheight;
    
     this.speed=speed;
-    this.fill='#fff'
+    this.fill='#000'
     this.show=function(){
         fill(this.fill);
         noStroke();
@@ -20,7 +20,9 @@ function Obstacles(x){
             this.fill="red";
             return true;
         }
-        else return false;
+        else 
+        {   
+            return false;}
     }
     this.bounce=function(player){
         
